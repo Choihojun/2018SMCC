@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.pls.ude.eclipse.launchConfigurationType">
+<stringAttribute key="com.pls.ude.eclipse.cdtinterface.cproject" value="TC237L_DemoPack_HanyangUniv"/>
+<stringAttribute key="com.pls.ude.eclipse.cdtinterface.diagnostic" value=""/>
+<stringAttribute key="com.pls.ude.eclipse.cdtinterface.project" value="TC237L_DemoPack_HanyangUniv"/>
+<stringAttribute key="com.pls.ude.eclipse.cdtinterface.targetconfig" value="AppKit_TC237.cfg"/>
+<stringAttribute key="com.pls.ude.eclipse.cdtinterface.workspace" value="C:\Users\최호준\Desktop\real\TC237L_DemoPack_HanyangUniv\.ude\TC237L_DemoPack_HanyangUniv_iROM.wsx"/>
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="iROM\TC237L_DemoPack_HanyangUniv.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="TC237L_DemoPack_HanyangUniv"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.74389048"/>
+<booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/TC237L_DemoPack_HanyangUniv"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.preferred_launchers">
+<mapEntry key="[debug]" value="com.pls.ude.eclipse.launchConfigurationType"/>
+</mapAttribute>
+</launchConfiguration>

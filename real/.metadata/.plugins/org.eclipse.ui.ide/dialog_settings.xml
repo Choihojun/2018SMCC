@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.pls.ude.udefeature:4.10.0.201802051500"/>
+		<item value="com.rt.hightec.development.platform.arm:1.6.2.20180424-5144a35"/>
+		<item value="com.rt.hightec.development.platform.powerpc:1.6.2.20180424-5144a35"/>
+		<item value="com.rt.hightec.development.platform.runtime.feature:1.6.2.20180424-5144a35"/>
+		<item value="com.rt.hightec.development.platform.tricore:1.6.2.20180424-5144a35"/>
+		<item value="org.eclipse.cdt.build.crossgcc:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.bupc:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.core.lrparser.feature:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.core.parser.upc.feature:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.examples.dsf:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.gdb:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.launch.remote:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.sdk:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt.xlc.feature:8.6.0.201502131403"/>
+		<item value="org.eclipse.cdt:8.6.0.201502131403"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
+		<item value="org.eclipse.platform:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
+	</list>
+</section>

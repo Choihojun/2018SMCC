@@ -1,0 +1,1033 @@
+
+
+--------- HighTec EDV-System Session-Log-17:07:56 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:58 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:58 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:58 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:58 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:07:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:08:20 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:08:20 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:08:20 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:08:20 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:08:20 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+[17:07:56]: Start plugin: com.rt.hightec.framework.common
+[17:07:57]: Start plugin: com.rt.hightec.framework.buildsystem
+[17:07:57]: Start plugin: com.rt.hightec.project.description.interpreter
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.arm
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.powerpc
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:07:57]: Start plugin: com.rt.hightec.buildsystem.tricore
+[17:07:57]: Start plugin: com.rt.hightec.toolchain.manager
+[17:07:57]: Start plugin: com.rt.hightec.toolchain.manager.store
+[17:07:58]: Start plugin: com.rt.hightec.framework.emf
+[17:07:58]: Start plugin: com.rt.hightec.dave.importer
+[17:07:58]: Start plugin: com.rt.hightec.support
+[17:07:58]: Start plugin: com.rt.hightec.licensing
+[17:07:59]: Start plugin: com.rt.hightec.modeling.linker.model
+[17:07:59]: Start plugin: com.rt.hightec.modeling.linker.core
+[17:08:20]: 
+
+[17:08:20]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[17:08:20]: ----------------------------------------
+
+[17:08:20]: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.refreshCache(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.getHighestRemoteVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.checkNewVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.doNewToolchainCheck(Unknown Source)
+	at com.rt.hightec.toolchain.manager.CheckToolchainUpdates.earlyStartup(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[17:08:20]: 
+
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.arm
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.powerpc
+[17:09:28]: Stop plugin: com.rt.hightec.buildsystem.tricore
+[17:09:28]: Stop plugin: com.rt.hightec.support
+[17:09:28]: Stop plugin: com.rt.hightec.project.description.interpreter
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:09:28 ---------
+-------------------------------------------------------- 
+
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.licensing
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.modeling.linker.core
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.modeling.linker.model
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.dave.importer
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.framework.emf
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.toolchain.manager
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.toolchain.manager.store
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.framework.buildsystem
+[17:09:28]: [17:09:28]: Stop plugin: com.rt.hightec.framework.common
+
+---------------- Session-END-Log-17:09:28 -----------------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:28 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:29 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:29 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:29 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:31 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:36 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:36 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+[17:27:28]: Start plugin: com.rt.hightec.framework.common
+[17:27:28]: Start plugin: com.rt.hightec.framework.buildsystem
+[17:27:28]: Start plugin: com.rt.hightec.project.description.interpreter
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.arm
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.powerpc
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:27:28]: Start plugin: com.rt.hightec.buildsystem.tricore
+[17:27:28]: Start plugin: com.rt.hightec.toolchain.manager
+[17:27:28]: Start plugin: com.rt.hightec.toolchain.manager.store
+[17:27:29]: Start plugin: com.rt.hightec.dave.importer
+[17:27:29]: Start plugin: com.rt.hightec.framework.emf
+[17:27:29]: Start plugin: com.rt.hightec.licensing
+[17:27:31]: Start plugin: com.rt.hightec.support
+[17:27:36]: Start plugin: com.rt.hightec.modeling.linker.model
+[17:27:36]: Start plugin: com.rt.hightec.modeling.linker.core
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.arm
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.powerpc
+[17:27:38]: Stop plugin: com.rt.hightec.buildsystem.tricore
+[17:27:38]: Stop plugin: com.rt.hightec.support
+[17:27:38]: Stop plugin: com.rt.hightec.project.description.interpreter
+[17:27:38]: Stop plugin: com.rt.hightec.modeling.linker.core
+[17:27:38]: Stop plugin: com.rt.hightec.modeling.linker.model
+[17:27:38]: Stop plugin: com.rt.hightec.licensing
+[17:27:38]: Stop plugin: com.rt.hightec.dave.importer
+[17:27:38]: Stop plugin: com.rt.hightec.framework.emf
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:27:38 ---------
+-------------------------------------------------------- 
+
+[17:27:38]: [17:27:38]: Stop plugin: com.rt.hightec.toolchain.manager
+[17:27:38]: [17:27:38]: Stop plugin: com.rt.hightec.toolchain.manager.store
+[17:27:38]: [17:27:38]: Stop plugin: com.rt.hightec.framework.buildsystem
+[17:27:38]: [17:27:38]: Stop plugin: com.rt.hightec.framework.common
+
+---------------- Session-END-Log-17:27:38 -----------------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:40 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:41 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:41 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:41 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:42 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:43 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:28:43 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:04 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:04 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:04 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:04 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:04 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+[17:28:40]: Start plugin: com.rt.hightec.framework.common
+[17:28:40]: Start plugin: com.rt.hightec.framework.buildsystem
+[17:28:40]: Start plugin: com.rt.hightec.project.description.interpreter
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.arm
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.powerpc
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:28:40]: Start plugin: com.rt.hightec.buildsystem.tricore
+[17:28:40]: Start plugin: com.rt.hightec.toolchain.manager
+[17:28:40]: Start plugin: com.rt.hightec.toolchain.manager.store
+[17:28:41]: Start plugin: com.rt.hightec.framework.emf
+[17:28:41]: Start plugin: com.rt.hightec.dave.importer
+[17:28:41]: Start plugin: com.rt.hightec.licensing
+[17:28:42]: Start plugin: com.rt.hightec.support
+[17:28:43]: Start plugin: com.rt.hightec.modeling.linker.model
+[17:28:43]: Start plugin: com.rt.hightec.modeling.linker.core
+[17:29:04]: 
+
+[17:29:04]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[17:29:04]: ----------------------------------------
+
+[17:29:04]: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.refreshCache(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.getHighestRemoteVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.checkNewVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.doNewToolchainCheck(Unknown Source)
+	at com.rt.hightec.toolchain.manager.CheckToolchainUpdates.earlyStartup(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[17:29:04]: 
+
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.arm.projectdata
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.arm
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.powerpc
+[17:29:59]: Stop plugin: com.rt.hightec.buildsystem.tricore
+[17:29:59]: Stop plugin: com.rt.hightec.support
+[17:29:59]: Stop plugin: com.rt.hightec.project.description.interpreter
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-17:29:59 ---------
+-------------------------------------------------------- 
+
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.modeling.linker.core
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.modeling.linker.model
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.licensing
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.dave.importer
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.framework.emf
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.toolchain.manager
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.toolchain.manager.store
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.framework.buildsystem
+[17:29:59]: [17:29:59]: Stop plugin: com.rt.hightec.framework.common
+
+---------------- Session-END-Log-17:29:59 -----------------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:46 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:47 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:48 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:48 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:49 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:50 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:51 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:17:51 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:18:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:18:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:18:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:18:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:18:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+[20:17:46]: Start plugin: com.rt.hightec.framework.common
+[20:17:47]: Start plugin: com.rt.hightec.framework.buildsystem
+[20:17:47]: Start plugin: com.rt.hightec.project.description.interpreter
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.arm.projectdata
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.arm
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.powerpc
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[20:17:47]: Start plugin: com.rt.hightec.buildsystem.tricore
+[20:17:47]: Start plugin: com.rt.hightec.toolchain.manager
+[20:17:47]: Start plugin: com.rt.hightec.toolchain.manager.store
+[20:17:48]: Start plugin: com.rt.hightec.dave.importer
+[20:17:48]: Start plugin: com.rt.hightec.framework.emf
+[20:17:49]: Start plugin: com.rt.hightec.licensing
+[20:17:50]: Start plugin: com.rt.hightec.support
+[20:17:51]: Start plugin: com.rt.hightec.modeling.linker.model
+[20:17:51]: Start plugin: com.rt.hightec.modeling.linker.core
+[20:18:12]: 
+
+[20:18:12]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[20:18:12]: ----------------------------------------
+
+[20:18:12]: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.framework.common.core.web.HTTPSite.getInputStream(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.refreshCache(Unknown Source)
+	at com.rt.hightec.toolchain.manager.preferencestore.download.RemoteToolchainStore.getHighestRemoteVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.checkNewVersion(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.doNewToolchainCheck(Unknown Source)
+	at com.rt.hightec.toolchain.manager.CheckToolchainUpdates.earlyStartup(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[20:18:12]: 
+
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.arm.projectdata
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.arm
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.powerpc
+[20:19:07]: Stop plugin: com.rt.hightec.buildsystem.tricore
+[20:19:07]: Stop plugin: com.rt.hightec.support
+[20:19:07]: Stop plugin: com.rt.hightec.project.description.interpreter
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-20:19:07 ---------
+-------------------------------------------------------- 
+
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.modeling.linker.core
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.modeling.linker.model
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.licensing
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.dave.importer
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.framework.emf
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.toolchain.manager
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.toolchain.manager.store
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.framework.buildsystem
+[20:19:07]: [20:19:07]: Stop plugin: com.rt.hightec.framework.common
+
+---------------- Session-END-Log-20:19:07 -----------------
+-------------------------------------------------------- 
+

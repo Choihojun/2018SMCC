@@ -1,0 +1,6 @@
+20:18:30 **** Incremental Build of configuration iROM for project TC237L_DemoPack_HanyangUniv ****
+"C:\\HighTec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\make.exe" all 
+make: Nothing to be done for 'all'.
+
+20:18:31 Build Finished (took 1s.364ms)
+
